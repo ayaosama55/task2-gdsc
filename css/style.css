@@ -18,6 +18,7 @@ body {
     font-size: 15px;
     transition:.4s all ease-in-out;
     margin-left: 20px;
+    background-color:#6C55F9
 }
 .my-button:hover, .my-button:focus{
     background-color: #645F88;
@@ -142,4 +143,27 @@ header .container .head-content .my-button i {
     header .container .head-content h2 {
         font-size:33px
     }
+}
+/* end header */
+/* start services */
+.services {
+    padding:60px 0;
+}
+.services .content {
+    padding: 35px 20px;
+    max-width: 300px;
+    text-align: center;
+    color: #898798;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgb(95 92 120 / 12%);
+    margin: 20px auto;
+}
+.services .content p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.services .content .my-button {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
