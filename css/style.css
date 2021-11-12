@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 body {
-    height:7000px;
     font-family: "Work Sans", sans-serif
 }
 .my-button {
@@ -420,3 +419,87 @@ header .container .head-content .my-button i {
 }
 .news .button .my-button {padding-left: 20px; padding-right:20px}
 /* end news */
+/* start footer */
+footer {
+    background-color: #2D2B3A;
+    color: #fff;
+}
+footer .back {
+    background-image: url("../images/world_pattern.svg");
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:70px 0 30px;
+}
+footer .back h4 {
+    margin-bottom:25px;
+    font-size: 25px;
+}
+footer .back .head p{
+    color: #898798;
+    font-size: 16px;
+    line-height:1.4
+}
+footer .back .head ul li {
+    display: inline-block;
+    margin-right: 2px;
+}
+footer .back .head ul li a i{
+    color: #898798;
+    background-color: #fff;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size:17px;
+    transition:.4s all ease-in-out;
+}
+footer .back .head ul li a i:hover {
+    background-color: #6C55F9;
+    color: #fff;
+}
+footer .back .company ul li {
+    margin-bottom: 12px;
+    font-size:17px
+}
+footer .back .company ul li a {
+    color: #898798;
+    transition: .4s all ease-in-out;
+}
+footer .back .company ul li a:hover {
+    color: #ffffff;
+    text-decoration: none
+}
+footer .back .contact p {
+    color: #898798;
+    font-size:16px;
+    line-height:1.4
+}
+footer .back .contact a {
+    color: #898798;
+    font-size:17px;
+    transition: .4s all ease-in-out;
+}
+footer .back .contact a:hover {
+    text-decoration: none;
+    color: #fff
+}
+footer .new p {
+    color: #898798;
+    font-size: 17px;
+}
+footer .new form input:last-of-type {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+}
+footer .back .row >div {
+    margin-bottom: 30px;
+}
+footer .row:last-of-type p {
+    color: #898798;
+    font-size: 17px;
+}
