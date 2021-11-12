@@ -39,6 +39,7 @@ body {
     color: #555;
     transition:.4s all ease-in-out;
     display: none;
+    z-index: 10000;
 }
 .totop:hover {
     color: #fff;
@@ -198,7 +199,8 @@ header .container .head-content .my-button i {
 }
 .about-us .about-content span,
 .team-services .head span,
-.price .head span { 
+.price .head span ,
+.news .head span { 
     display: block;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -207,12 +209,14 @@ header .container .head-content .my-button i {
     margin-bottom: 8px;
 }
 .about-us .about-content h2,
-.price .head h2 { 
+.price .head h2,
+.news .head h2 { 
     color: #645F88;
 }
 .about-us .about-content hr,
 .team-services .head hr,
-.price .head hr { 
+.price .head hr,
+.news .head hr { 
     width:40px;
     height: 3px;
     border: none;
@@ -237,7 +241,8 @@ header .container .head-content .my-button i {
 .price .head {margin-bottom:30px}
 .team-services .head h2 { color: #645F88; }
 .team-services .head hr,
-.price .head hr {margin: 20px auto;}
+.price .head hr,
+.news .head hr {margin: 20px auto;}
 .team-services .content {margin: 20px 0;}
 .team-services .content span i{
     width:60px;
@@ -379,3 +384,39 @@ header .container .head-content .my-button i {
 .brand .back-brand .content .list {
     margin-left: 30px;
 }
+/* end brand */
+/* start news */
+.news { padding:60px 0;}
+.news .head {margin-bottom: 40px;}
+.news .content {
+    max-width: 300px;
+    margin: 20px auto 0;
+    box-shadow: 0 2px 6px rgb(100 95 136 / 16%);
+}
+.news .content .cont {padding: 15px}
+.news .content .cont h4{
+    cursor: pointer;
+    font-size:20px;
+    color: #645F88;
+    transition:.4s all ease-in-out;
+}
+.news .content .cont h4:hover {
+    color: #6C55F9
+}
+.news .content .cont p {
+    font-size:13px
+}
+.news .content .cont p span {
+    color: #6C55F9;
+    cursor: pointer;
+    transition:.4s all ease-in-out;
+}
+.news .content .cont p span:hover {
+    text-decoration:underline
+}
+.news .button {
+    text-align: center;
+    margin-top: 30px;
+}
+.news .button .my-button {padding-left: 20px; padding-right:20px}
+/* end news */
