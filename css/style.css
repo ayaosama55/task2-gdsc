@@ -284,6 +284,7 @@ header .container .head-content .my-button i {
     color: #2D2B3A;
     border-radius: 4px;
     box-shadow: 0 4px 16px rgb(100 95 136 / 16%);
+    margin-bottom: 30px;
 }
 .price .content >span {
     margin-top: 8px;
