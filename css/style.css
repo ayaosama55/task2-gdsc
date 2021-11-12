@@ -23,9 +23,7 @@ body {
 .my-button:hover, .my-button:focus{
     background-color: #645F88;
 }
-.image-responsive {
-    max-width: 100%;
-}
+
 /* start to top button */
 .totop {
     width: 50px;
