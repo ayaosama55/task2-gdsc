@@ -175,7 +175,8 @@ header .container .head-content .my-button i {
 .about-us .about-content {
     padding:20px;
 }
-.about-us .about-content span { 
+.about-us .about-content span,
+.team-services .head span { 
     display: block;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -186,7 +187,8 @@ header .container .head-content .my-button i {
 .about-us .about-content h2 { 
     color: #645F88;
 }
-.about-us .about-content hr { 
+.about-us .about-content hr,
+.team-services .head hr { 
     width:40px;
     height: 3px;
     border: none;
@@ -205,5 +207,63 @@ header .container .head-content .my-button i {
 /* start team services */
 .team-services {
     background-color: #F6F5FC;
+    padding:80px 0;
+}
+.team-services .head{margin-bottom:30px}
+.team-services .head h2 { color: #645F88; }
+.team-services .head hr {margin: 20px auto;}
+.team-services .content {margin: 20px 0;}
+.team-services .content span i{
+    width:60px;
+    height:60px;
+    line-height:60px;
+    background-color:#fff;
+    font-size: 24px;
+    box-shadow: 0 2px 4px rgb(95 92 120 / 16%);
+    color: #6C55F9;
+    border-radius:50%;
+    margin-bottom: 10px;
+}
+.team-services .content h4 {color: #2D2B3A;margin-bottom: 10px;}
+.team-services .content p {font-size: 13px; color: #898798;}
+/* end team services */
+/* start check email */
+.check {
+    background-image: radial-gradient(circle, #B262F8 15%, #5439F8);
+    color: #fff;
+}
+.check .back {
     padding:50px 0;
+    background-image: url("../images/bg_pattern.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.check .back .content {
+    margin: 20px 0;
+}
+.check .back .content h2 {
+    margin-bottom: 20px;
+}
+.check .back .content form {
+    display:flex;
+    padding:10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.check .back .content form input[type="email"] {
+    border-color: transparent;
+    box-shadow: none;
+    font-size:19px
+}
+.check .back .content form input[type="submit"] {
+    color: #fff !important;
+    font-size: 19px;
+}
+@media(max-width:767px) {
+    .check .back .content form input[type="email"],
+    .check .back .content form input[type="submit"] {
+        font-size:16px
+    }
 }
