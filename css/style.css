@@ -23,6 +23,26 @@ body {
 .my-button:hover, .my-button:focus{
     background-color: #645F88;
 }
+/* start to top button */
+.totop {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    background: rgba(224, 223, 233, 0.7);
+    cursor: pointer;
+    color: #555;
+    transition:.4s all ease-in-out;
+    display: none;
+}
+.totop:hover {
+    color: #fff;
+    background-color: #6C55F9;
+}
 /* start nav bar */
 .navbar-default { /* repair in bootstrap code */
     background-color: #fff;
@@ -327,3 +347,34 @@ header .container .head-content .my-button i {
 .price .content.blue h4 {color: #fff}
 .price .content.blue p {color: #fff}
 .price .content.blue .my-button {background-color: #fff;color: #6C55F9}
+/* end pricing section */
+/* start brand section */
+.brand {
+    background-color: #5439F8;
+    color: #fff;
+}
+.brand .back-brand {
+    padding:70px 0;
+    background-image: url("../images/bg_pattern.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.brand .back-brand .content {margin-bottom: 30px}
+.brand .back-brand .content h3 {
+    font-size: 30px;
+}
+.brand .back-brand .content hr {
+    width: 50px;
+    height: 3px;
+    border: none;
+    background-color: #fff;
+}
+.brand .back-brand .content >p {
+    font-size:17px;
+    margin-bottom: 10px;
+}
+.brand .back-brand .content .list {
+    margin-left: 30px;
+}
