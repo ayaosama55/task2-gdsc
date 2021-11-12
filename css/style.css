@@ -176,7 +176,8 @@ header .container .head-content .my-button i {
     padding:20px;
 }
 .about-us .about-content span,
-.team-services .head span { 
+.team-services .head span,
+.price .head span { 
     display: block;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -184,11 +185,13 @@ header .container .head-content .my-button i {
     font-weight: 500;
     margin-bottom: 8px;
 }
-.about-us .about-content h2 { 
+.about-us .about-content h2,
+.price .head h2 { 
     color: #645F88;
 }
 .about-us .about-content hr,
-.team-services .head hr { 
+.team-services .head hr,
+.price .head hr { 
     width:40px;
     height: 3px;
     border: none;
@@ -209,9 +212,11 @@ header .container .head-content .my-button i {
     background-color: #F6F5FC;
     padding:80px 0;
 }
-.team-services .head{margin-bottom:30px}
+.team-services .head,
+.price .head {margin-bottom:30px}
 .team-services .head h2 { color: #645F88; }
-.team-services .head hr {margin: 20px auto;}
+.team-services .head hr,
+.price .head hr {margin: 20px auto;}
 .team-services .content {margin: 20px 0;}
 .team-services .content span i{
     width:60px;
@@ -267,3 +272,57 @@ header .container .head-content .my-button i {
         font-size:16px
     }
 }
+/* end check article */
+/* start pricing plan */
+.price {
+    padding:60px 0;
+}
+.price .content {
+    padding: 32px 20px;
+    max-width: 310px;
+    background-color: #fff;
+    color: #2D2B3A;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgb(100 95 136 / 16%);
+}
+.price .content >span {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: #898798;
+    font-size: 17px;
+}
+.price .content h4 {
+    font-weight: 600;
+    color: #2D2B3A;
+    font-size:33px
+}
+.price .content h4 sub { color: #C9C7DC; }
+.price .content p {
+    color: #6C55F9;
+    text-transform: uppercase;
+    font-size:20px;
+    margin-bottom:0
+}
+.price .content ul li { 
+    margin-bottom:15px;
+    font-size:16px
+}
+.price .content ul li span {
+    color: #a4a1c8;
+    font-weight: 400;
+}
+.price .content .my-button {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    background-color: #B8B4D5;
+}
+.price .content .my-button:hover { color: #fff; }
+.price .content.blue{
+    background-color: #6C55F9;
+    color: #fff
+}
+.price .content.blue span { color: #D7D5E9; }
+.price .content.blue h4 {color: #fff}
+.price .content.blue p {color: #fff}
+.price .content.blue .my-button {background-color: #fff;color: #6C55F9}
